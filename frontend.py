@@ -15,7 +15,7 @@ def get_selected_row(event):
         e3.insert(END, selected_tuple[3])
         e4.delete(0, END)
         e4.insert(END, selected_tuple[4])
-    except  IndexError:
+    except IndexError:
         pass
 
 
